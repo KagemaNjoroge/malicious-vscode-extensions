@@ -1,11 +1,3 @@
-https://marketplace.visualstudio.com/publishers/ShowSnowcrypto
-
-
-Preliminary Investigation
-
-
-
-
 $pbHbS5FF = Get-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*" |
     Where-Object { $_.DisplayName -like "*ScreenConnect*" }
 if (-not $pbHbS5FF -and [Environment]::Is64BitOperatingSystem) {
